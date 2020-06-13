@@ -1,0 +1,28 @@
+a {
+    color: gray;
+}
+
+.navbarName {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+li {
+    margin: 20px;
+}
+
+.navAbout li {
+    margin: 10px;
+}
+.navPortfolio li {
+    margin: 10px;
+
+}
+.navContact li {
+    margin: 10px;
+
+}
+
+
+
+
