@@ -1,0 +1,94 @@
+a {
+    color: gray;
+    text-align: right;
+    float: right;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 30px;
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+form {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 90px;
+    margin-left: 30px;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background: lightgray;
+}
+
+.navbarName {
+    margin-left: 30px;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+li {
+    margin: 10px;
+}
+
+.navAbout li {
+    margin: 10px;
+}
+
+.navPortfolio li {
+    margin: 10px;
+
+}
+
+.navContact li {
+    margin: 10px;
+}
+
+.form-group {
+    width: 100px;
+    margin: 10px;
+}
+
+.form-control {
+    width: 500px;
+    margin: 0;
+}
+
+.form-control-message {
+    width: 500px;
+    margin: 0;
+    height: 250px;
+}
+
+.btn {
+    background-color: darkcyan;
+    margin: 20px;
+    width: 100px;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    background-color: darkgrey;
+
+}
+
+
+
+
+

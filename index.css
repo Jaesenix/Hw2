@@ -1,92 +1,35 @@
-a {
-    color: gray;
-    text-align: right;
-    float: right;
-}
-
 p {
-    text-align: center;
-}
-
-h1 {
-    color: darkcyan;
-    font-size: 30px;
-    margin: 30px;
-    padding: 10px;
-}
-
-form {
-    border: auto;
-    border-color: lightgray;
-    margin-bottom: 80px;
-}
-
-header {
-    background-color: white;
-}
-
-body {
-    background: lightgray;
-}
-
-.navbarName {
-    margin-left: 20px;
+    display: flex;
     margin-top: 0;
-    overflow: hidden;
-    background-color: darkcyan;
-    font-size: 25px;
-    color: white;
+    
 }
 
-.navbar-nav {
-    flex-
-}
-
-li {
-    margin: 10px;
-}
-
-.navAbout li {
-    margin: 10px;
-}
-
-.navPortfolio li {
-    margin: 10px;
+.container1 {
+    color: gray;  
 
 }
 
-.navContact li {
-    margin: 10px;
+.page-header {
+    margin-top: 50px;
+    margin-left: 15px;
+    color: darkcyan;
+    font-size: 10px;
+    font-family: serif;
 }
 
-.form-group {
-    width: 100px;
-    margin: 20px;
+.photo {
+    float: left;
+    clear: left;
+    margin-right: 10px;
+    padding: 5px;
 }
 
-.form-control {
-    width: 500px;
-    margin: 0;
+.container2 {
+    width: 1024px;
+    border-color: lightgray;
+    margin-left: 50px;
 }
 
-.form-control-message {
-    width: 500px;
-    margin: 0;
-    height: 250px;
-}
-
-.btn {
-    background-color: darkcyan;
-    margin: 20px;
-    width: 100px;
-    padding: 10px;
-    color: white;
-}
-
-footer {
-    background-color: darkgrey;
-
-}
 
 
 
