@@ -1,7 +1,44 @@
 p {
     display: flex;
-    margin-top: 0;
-    
+    margin-top: 0;    
+}
+
+.navLogo {
+    height: 100%;
+    width: 150px;
+    padding: 0;
+    margin-top: -15px;
+    margin-bottom: -12px;
+    margin-left: 50px;
+    background-color: darkcyan;
+    color: white;
+}
+
+.navName {
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    margin-left: 20px;
+ }
+
+ .navAbout {
+     justify-content: space-between;
+     margin: 10px;
+     color: gray;
+ }
+
+ .navPortfolio {
+     justify-content: space-between;
+     margin: 10px;
+     color: gray;
+
+ }
+
+.navContact {
+    justify-content: space-evenly;
+    margin: 10px;
+    color: gray;
+
 }
 
 .container1 {
@@ -30,7 +67,19 @@ p {
     margin-left: 50px;
 }
 
+footer {
+    background: darkgray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
+@media screen (and max-width: 600px;) {
+
+}
 
 
 
