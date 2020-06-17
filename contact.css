@@ -47,7 +47,7 @@ body {
     color: white;
     font-size: 30px;
     font-family: serif;
-    margin-left: 20px;
+    margin-right: 20px;
  }
 
  .navAbout {
@@ -84,6 +84,7 @@ body {
     width: 500px;
     margin: 0;
     height: 250px;
+    border-style: none;
 }
 
 .btn {
@@ -96,6 +97,10 @@ body {
 
 footer {
     background-color: darkgrey;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
 
 }
 

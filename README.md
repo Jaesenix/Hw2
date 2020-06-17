@@ -1,1 +1,2 @@
 # Hw2
+Here is the start of what will be my bootstrap portfolio. Enclosed, you will see the index page which will include some information about me (which I would prefer not to publish at the moment), a page of what shall include some of my work within the class, and a contact page where you may input your name, email address, and a message.

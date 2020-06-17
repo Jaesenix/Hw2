@@ -7,6 +7,11 @@ h2 {
     margin-top: -13px;
 }
 
+title {
+    margin-top: 0;
+    padding: 0;
+}
+
 .navLogo {
     height: 100%;
     width: 150px;
@@ -54,12 +59,15 @@ h2 {
     flex-wrap: wrap;
     padding: 0 4px;    
 }
+.container1 {
+    margin-top: -30px;
+}
 .container2 {
     position: relative;
 }
-.text-block {
+.text-block-left1 {
     position: absolute;
-    margin-top: -80px;
+    margin-top: -60px;
     margin-left: 60px;
     width: 200px;
     height: 40px;
@@ -69,27 +77,91 @@ h2 {
     text-align: center;
 }
 
+.text-block-right1 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 210px;
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.text-block-left2 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 60px;
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-block-right2 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 210px;
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-block-left3 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 70px;
+    width: 200px;
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 .left1 {
+    margin-top: -20px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 10px;
 }
 .right1 {
+    margin-top: -20px;
     margin-left: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 10px;
 }
 .left2 {
+    margin-top: -20x;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding: 10px;
 }
 .right2 {
-    margin-left: 0;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-bottom: 0;
     padding: 10px;
 }
 .left3 {
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 60px;
     padding: 10px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }

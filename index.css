@@ -1,6 +1,15 @@
 p {
-    display: flex;
-    margin-top: 0;    
+    margin-top: 100px;
+    margin-left: -110px;
+    margin-right: 300px;
+    margin-bottom: -50px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    clear: left;
+    font-size: 2vw;
+    font-family: serif;
+    justify-content: left;
 }
 
 .navLogo {
@@ -19,6 +28,16 @@ p {
     font-size: 30px;
     font-family: serif;
     margin-left: 20px;
+}
+ .navLogo {
+    height: 100%;
+    width: 150px;
+    padding: 0;
+    margin-top: -15px;
+    margin-bottom: -12px;
+    margin-left: 50px;
+    background-color: darkcyan;
+    color: white;
  }
 
  .navAbout {
@@ -43,7 +62,6 @@ p {
 
 .container1 {
     color: gray;  
-
 }
 
 .page-header {
@@ -55,9 +73,11 @@ p {
 }
 
 .photo {
-    float: left;
-    clear: left;
     margin-right: 10px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    display: flex;
+    align-content: left;
     padding: 5px;
 }
 
@@ -77,8 +97,9 @@ footer {
     bottom: 0;
 }
 
-@media screen (and max-width: 600px;) {
-
+@media screen and (max-width: 800px) {
+    flex: 50%;
+    max-width: 100%
 }
 
 
